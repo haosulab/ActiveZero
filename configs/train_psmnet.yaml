@@ -1,0 +1,12 @@
+NAME: just psmnet 2
+
+MODEL:
+  ADAPTER: False
+
+LOSSES:
+  ONREAL: False
+  REPROJECTION_LOSS: False
+
+SOLVER:
+  BATCH_SIZE: 2
+  LOGDIR: "/edward-slow-vol/checkpoints/psmnet_new_2"

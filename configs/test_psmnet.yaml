@@ -1,0 +1,16 @@
+NAME: just psmnet 2
+
+MODEL:
+  ADAPTER: False
+  CHECKPOINT: "/edward-slow-vol/checkpoints/psmnet_new_2/models/model_best.pth"
+
+LOSSES:
+  ONREAL: False
+  REPROJECTION_LOSS: False
+
+SIM:
+  LEFT: "0128_irL_kuafuv2_half.png"
+  RIGHT: "0128_irR_kuafuv2_half.png"
+
+SOLVER:
+  LOGDIR: "./"
